@@ -1,0 +1,114 @@
+body{
+    background-color:aqua;
+}
+.page{
+    border-style:double;
+    border-width:  15px;
+    background-color:rgb(0, 255, 136);
+    color:blueviolet;
+}
+h2{
+    background-color:rgb(0, 255, 157) ;
+    border-style:groove;
+}
+
+#term:hover::after{
+    content:"";
+}
+#term:active::after{
+    
+    content:" let go";
+}
+
+#pay:hover::after{
+    content:"";
+    color:darkslategrey
+
+}
+#pay:active::after{
+    content:"bought!";
+    color:red;
+    background-color:white;
+}
+#pay{
+    color:deeppink;
+    border-style:ridge;
+    border-width: 5px;
+    margin-right:93%;
+}
+
+div{
+    font-size:23px;
+    font-style:italic;
+    color:red;
+}
+
+img{
+    border-style:double;
+    border-width: 20px;
+    margin-left:400px;
+    border-color:pink;
+    border-left-width: 50px;
+    border-right-width:50px;
+}
+
+h3{
+    background-color:blueviolet;
+    color:lightcoral;
+    margin-right:1650px;
+}
+
+.main{
+    margin-left: 700px;
+    color:yellow;
+    background-color:crimson;
+    margin-right:575px;
+}
+
+li{
+    color:black;
+    background-color:lightgreen;
+}
+
+.indoor{
+    color:lightsteelblue;
+    background-color:cadetblue;
+    border-style:solid;
+}
+
+.outside{
+    color:lightsteelblue;
+    background-color:cadetblue;
+    border-style:solid;
+}
+
+.backpark{
+    color:deeppink;
+    border-style:ridge;
+    border-width: 5px;
+    margin-right:93%;
+}
+
+.backpark:hover::after{
+    content:"";
+}
+.backpark:active::after{
+    
+    content:" let go";
+}
+
+.diner{
+    color:deeppink;
+    border-style:ridge;
+    border-width: 5px;
+    margin-right:93%;
+}
+
+#help:hover::after{
+    content:"help?";
+    color:blueviolet
+}
+
+#help:active::after{
+    content:"worry youself!";
+}
